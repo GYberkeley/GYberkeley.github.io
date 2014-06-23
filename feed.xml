@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cal Filmmaker</title>
+    <description>Programming, filmmaking, and photography</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>12 Angry Men</title>
+        <description>&lt;p&gt;Okay so with Cydia, you’re basically installing one modification to your iOS at a time. What if you just wanted a gigantic collection of features your current OS doesn’t have though (remove crappy bloatware apps like Newstand, Game Center etc, improve battery life by underclocking when nothing is happening, improve performance by overclocking when watching a 4K video, automate by switching to CarPlay mode as soon as the GPS figures out you stepped into your car, process your iPhone audio through an enhancing software like VIPER’s audio for more dynamic bass and stronger clarity, change to a custom keyboard, theme, notification layout, allow two apps to be open side by side, install an Equalizer into your notification because the Music app has limited EQ Presets, allow hotspot tethering, automate torrenting of TV shows you like in the background while you sleep at night etc etc.)&lt;/p&gt;
+
+&lt;p&gt;It would be really stupid if you had to look for them one by one. A unique quality of Android is that its Open Source, so people can create their own Custom versions of the Android Operating System. Conceivably, a custom Android ROM could have all of these features built-in without you having to go look for everything. There are literally hundreds of versions of Android that you can install, some of which have a lot of cool features that the Stock OS doesn’t let you have. So with the jailbreak, you’re still basically modifying and playing nice with iOS 7. With Android, you can literally replace the entire fucking OS.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Jun 2014 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2014/06/18/twelve-angry-men/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/18/twelve-angry-men/</guid>
+      </item>
+    
+      <item>
+        <title>Rashomon</title>
+        <description>&lt;p&gt;Rashomon is definitely another 10 out of 10&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Jun 2014 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2014/06/18/rashomon/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/18/rashomon/</guid>
+      </item>
+    
+      <item>
+        <title>Edge Of Tomorrow</title>
+        <description>&lt;p&gt;Edge Of Tomorrow is a solid 8.5 out of 10&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Jun 2014 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2014/06/18/edge-of-tomorrow/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/06/18/edge-of-tomorrow/</guid>
+      </item>
+    
+  </channel>
+</rss>

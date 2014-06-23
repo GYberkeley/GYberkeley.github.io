@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- the head includes the bootstrap and custom stylesheets -->
+  <!-- the head includes a viewport tag that allows responsiveness -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cal Filmmaker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Programming, filmmaking, and photography">
+    <link rel="canonical" href="http://yourdomain.com/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+
+
+</head>
+
+
+    <body>
+
+    <!-- the header is a Bootstrap navigation bar with dropdown menu -->
+        <header class="top" role="header">
+        <div class="container">
+            <a href="#" class="navbar-brand pull-left">
+                CAL FILMMAKER
+            </a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
+            <nav class="navbar-collapse collapse" role="navigation">
+                <ul class="navbar-nav nav">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about/index.html">About</a></li>
+                    <li><a href="/blog/index.html">Blog</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
+                    <li><a href="/projects/index.html">Projects</a></li>
+                    <li><a href="/parallax/index.html">My Story</a></li>
+                    <li><a href="/screenplays/index.html">Favorite Screenplays</a></li>
+
+                    <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Film Topic Modals<b class="caret"></b></a>
+                       <ul class="dropdown-menu">
+                         <li><a href="/scenes/index.html">Scenes</a></li>
+                         <li><a href="#">Cinematography</a></li>
+                         <li><a href="#">Sound Design</a></li>
+                         <li class="divider"></li>
+                         <li><a href="#">German Expressionism</a></li>
+                         <li><a href="#">Tarantino's Postmodern Remix</a></li>
+                       </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-content">
+      <div class="wrap">
+      <div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item bg image1 active">
+      <div class="container">
+          <div class="carousel-caption">
+            <h1>Visit my blog.</h1>
+            <p>From the warped, jagged edges of Caligari to the 
+              sterile, cleanroom whites of 2001 A Space Odyssey, light and shadow 
+              become the filmmaker's storytelling brush.</p>
+            <p><a class="btn btn-lg btn-primary" href="/blog/index.html" role="button">Check out my blog</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="item bg image2">
+    <div class="container">
+      <div class="carousel-caption">
+        <h1>Credentials.</h1>
+        <p>Check out my resume!</p>
+        <p><a class="btn btn-lg btn-success" href="/resume.html" role="button">Learn more</a></p>
+      </div>
+    </div>
+  </div>
+
+    <div class="item bg image3">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Thanks for visiting.</h1>
+          <p>Feel free to check out other nerdy stuff I'm into</p>
+          <p><a class="btn btn-lg btn-warning" href="/screenplays/index.html" role="button">Browse screenplays</a></p>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- this div closes the carousel-inner mentioned above -->
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  
+  <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap footer container">
+
+    <h2 class="footer-heading">Cal Filmmaker</h2>
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>Cal Filmmaker</li>
+        <li><a href="mailto:gyang@berkeley.edu">gyang@berkeley.edu</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text">Programming, filmmaking, and photography</p>
+    </div>
+
+  </div>
+
+</footer>
+
+
+
+    <!-- I added this to default.html so that it would boot up the Bootstrap javascript files --> 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/init.js"></script>
+
+    </body>
+</html>

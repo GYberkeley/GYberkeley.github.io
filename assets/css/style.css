@@ -1,0 +1,143 @@
+
+
+  html, body {
+    height:100%;
+    margin:0;
+    padding:0;
+  }
+
+  /* my about page uses paragraphs. The font was too small so I made it a bit larger */
+  p {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .carousel {
+    /* height:100%; */
+    height: 700px;
+  }
+
+  .item, .active {
+    height:100%;
+  }
+  .carousel-inner {
+    height:100%;
+  }
+  .carousel {
+    margin-bottom: 60px;
+  }
+
+  .carousel .item {
+  background-color: #777;
+  }
+  .carousel .carousel-inner .bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .carousel .carousel-inner .image1 {
+  background-image:url(/assets/images/samsara-1.png);
+  background-position: center top;
+
+  }
+  .carousel .carousel-inner .image2 {
+  background-image:url(/assets/images/third-man.jpg);
+  background-position: center center;
+  }
+  .carousel .carousel-inner .image3 {
+  background-image:url(/assets/images/Amelie1.jpg);
+  background-position: center top;
+  }
+
+
+  .carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 450px;
+    padding: 0 20px;
+    margin-top: 200px;
+  }
+  .carousel-caption h1,
+  .carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  }
+  .carousel-caption .btn {
+    margin-top: 10px;
+  }
+
+  /* padding for screenplay */
+
+  .pad {
+    padding: 0 30px;
+  }
+
+  /* about image */
+
+  .img-circle {
+    overflow: hidden;
+  }
+
+  .post-padding {
+    padding: 100px 0 100px 0;
+  }
+
+
+  /* Styling Elements for the About Page's Parallax Effect 
+  -----------------------------*/
+
+    .parallax-section {
+      padding: 100px 0 100px 0;
+      /* top right bottom left */
+    }
+
+    #section2 { 
+        background: url(/assets/images/taps.ucdavis.edu-bikecircle1920x576.jpg) 50% 0 fixed; 
+        background-position: middle;
+        height: auto;  
+        background-size: 3000px;
+        /* I changed the background-size because the bike circle picture wasn't big enough */
+        margin: 0 auto; 
+        width: 100%; 
+        position: relative; 
+        /* box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+        padding: 100px 0;
+        color: #fff;
+    }
+
+    #section4 { 
+        background: url(/assets/images/arcaderoom.jpg) 50% 0 fixed; 
+        height: auto;
+        margin: 0 auto; 
+        width: 100%; 
+        background-size: 1500px;
+        position: relative; 
+        /* box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+        padding: 100px 0;
+        color: #fff;
+    }
+
+    #section6 { 
+        background: url(/assets/images/berkeley_projectrishi.org-banner.png) 50% 0 fixed; 
+        height: auto;
+        margin: 0 auto; 
+        width: 100%; 
+        position: relative; 
+        /* box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+        padding: 100px 0;
+        color: #fff;
+    }
+
+
+
+
+  /* Styling for the Footer */
+
+  .footer, .about {
+    padding: 0 30px;
+    /* make sure to finish the padding later. The about class didn't exactly work teh way I thought
+    that it would */
+  }
+
+
