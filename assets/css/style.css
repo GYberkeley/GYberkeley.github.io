@@ -6,6 +6,10 @@
     padding:0;
   }
 
+  img[alt="Two Shot"] {
+    width: 600px;
+  }
+
   /* my about page uses paragraphs. The font was too small so I made it a bit larger */
   p {
     font-size: 18px;
@@ -80,7 +84,7 @@
   }
 
   .post-padding {
-    padding: 100px 0 100px 0;
+    padding: 100px 50px 100px 0;
   }
 
 
