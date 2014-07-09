@@ -6,6 +6,8 @@
     padding:0;
   }
 
+
+
   img[alt="Two Shot"] {
     width: 600px;
   }
@@ -52,7 +54,6 @@
   background-position: center top;
   }
 
-
   .carousel-caption {
     background-color: transparent;
     position: static;
@@ -71,6 +72,12 @@
     margin-top: 10px;
   }
 
+
+  /* this is so that the blog post content doesn't pour all the way over to the right */
+  .post-content {
+    padding: 0 150px;
+  }
+
   /* padding for screenplay */
 
   .pad {
@@ -84,7 +91,7 @@
   }
 
   .post-padding {
-    padding: 100px 50px 100px 0;
+    padding: 100px 0px 100px 0;
   }
 
 
